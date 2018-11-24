@@ -1,0 +1,85 @@
+@import "_config.scss";
+
+header{
+  position: relative;
+  width: 100%;
+  height:auto;
+  text-align: center;
+  font-style: bold;
+  padding:100px;
+  padding-top: 100px;
+
+
+
+}
+
+ section {
+    width:45%;
+    border:10px solid $black;
+    padding: 10px;
+    height: 450px;
+    position: center;
+ }
+
+#header1{
+  font-style: bold;
+  text-decoration: underline;
+  font-size: 100px;
+  color: $black;
+  background-color: $red;
+  position:100%;
+  padding:0px;
+}
+
+.logo{
+   position:center;
+   top: 100%;
+   width:100%;
+   color: $black;
+   font-size: 50px;
+    @include translateY(90%);
+}
+
+nav,
+nav ul,
+nav ul li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-content: center;
+}
+
+nav{
+  position: absolute;
+  display: block;
+  right: 10px;
+  font-size: 40px;
+  width:50%;
+  height: 120px;
+  padding: 10px;
+  @include translateY(30%);
+
+  ul li {
+    list-style-type: none;
+    display: block;
+    margin: 10px;
+    font-size: 30px;
+    padding: 30px;
+    background-color: $black;
+    position: relative;
+  }
+
+     a {
+      font-size: 30px;
+      line-height: normal;
+     }
+    }
+    footer{
+      position: relative;
+      width: 100%;
+      background: $black;
+      color: $white;
+      height: 30px;
+      text-align: center;
+
+    }
